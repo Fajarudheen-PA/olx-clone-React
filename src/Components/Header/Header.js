@@ -66,11 +66,13 @@ function Header() {
           {/* <Search></Search> */}
           {/* <input type="text" /> */}
           <div>
-          <select type='text' className="placeSearch" >
+          <select type='text' className="placeSearch">
               <option value="">Are you looking for something?</option>
-              <option value="">Car</option>
-              <option value="">Bike</option>
-
+              <option value="">Vehicle</option>
+              <option value="">Furniture</option>
+              <option value="">Mobiles</option>
+              <option value="">Kitchen Appliances</option>
+              <option value="">Others</option>
             </select>
           </div>
           {/* <Arrow></Arrow> */}
