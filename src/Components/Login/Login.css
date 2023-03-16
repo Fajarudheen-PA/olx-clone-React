@@ -7,13 +7,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    background-color: #fff;
   }
   
   .loginParentDiv .input {
-    border-top-color: transparent;
+    width: 100%;
+    padding: 3px 2px;
+    /* border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    outline-color: transparent;
+    outline-color: transparent; */
+    border: 1px solid #000;
+    border-radius: 4px;
   }
   
   .loginParentDiv button {
@@ -34,5 +39,20 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    padding: 10px 0;
+  }
+  .loginParentDiv .password-section{
+    display: flex;
+    justify-content: space-between;
+    height: 8px;
+    margin-top: 8px;
+    /* gap: 10px; */
   }
   
+  .login-bg {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }

@@ -1,4 +1,9 @@
+.postParentDiv{
+  overflow-x: none;
+}
+
 .moreView {
+  /* width: 100vw; */
   margin: 16px 16px 24px;
   padding: 16px 16px 32px;
   background-color: #ebeeef;
@@ -11,6 +16,7 @@
   align-items: center;
   width: 100%;
 }
+
 .heading :first-child {
   font-size: 24px;
   color: #002f34;
@@ -22,13 +28,24 @@
 }
 
 .recommendations .cards {
-  display: flex;
+  /* display: flex; */
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.recommendations .cards::-webkit-scrollbar{
+  display: none;
 }
 
 .moreView .cards {
   white-space: nowrap;
+  /* display: flex; */
   overflow-x: scroll;
   overflow-y: hidden;
+}
+
+.moreView .cards::-webkit-scrollbar{
+  display: none;
 }
 
 .card {

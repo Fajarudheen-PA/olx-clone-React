@@ -14,7 +14,7 @@
 }
 
 .placeSearch {
-  width: 16em;
+  width: 17em;
   height: 48px;
   display: flex;
   align-items: center;
@@ -153,6 +153,11 @@
 } */
 .sellMenu .sellMenuContent span {
   margin-left: 5px;
+}
+
+.login-logout{
+  cursor: pointer;
+  color: #000;
 }
 
 @media only screen and (max-width: 700px) {

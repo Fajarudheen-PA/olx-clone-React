@@ -1,38 +1,70 @@
 .signupParentDiv {
-    border: 1px solid black;
-    width: max-content;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 6px;
-  }
-  
-  .signupParentDiv .input {
-    border-top-color: transparent;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: max-content;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.signupParentDiv .input {
+  width: 100%;
+  padding: 3px 2px;
+  /* border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    outline-color: transparent;
-  }
-  
-  .signupParentDiv button {
-    width: 100%;
-    height: 48px;
-    /* border-color: transparent; */
-    background-color: #002f34;
-    color: whitesmoke;
-    font-weight: 900;
-  }
-  .signupParentDiv button:hover {
-    background-color: white;
-    color: #002f34;
-    border: 2px solid #002f34;
-  }
-  
-  .signupParentDiv a {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-  }
-  
+    outline-color: transparent; */
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.signupParentDiv .label {
+  color: #000;
+  margin-bottom: 0.1rem;
+}
+
+.signupParentDiv button {
+  width: 100%;
+  height: 48px;
+  /* border-color: transparent; */
+  background-color: #002f34;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+.signupParentDiv button:hover {
+  background-color: white;
+  color: #002f34;
+  border: 2px solid #002f34;
+}
+
+.signupParentDiv a {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.signup-bg {
+  /* background-image: url("../../../public/Images/olx-bg-new.jpg"); */
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.error {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* width: 100%; */
+  height: 0px;
+  font-size: 11px;
+  color: red;
+  font-weight: 600;
+}

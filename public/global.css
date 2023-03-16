@@ -1,10 +1,18 @@
-/* * {
+* {
   margin: 0px;
   padding: 0px;
+  border: 0px;
   box-sizing: border-box;
 }
+/* .content-wrapper {
+  width: 100%;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px;
+} */
 
-.alignItemCenter {
+/* .alignItemCenter {
   justify-content: space-between;
   align-items: center;
 }
